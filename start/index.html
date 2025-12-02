@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="カフェ, 西新宿カフェ, モーニング, ランチ, コーヒー, パスタ, カフェドパリ, Café de Paris, 喫茶店, スイーツ, テイクアウト, 朝カフェ, 夜カフェ">
+    <meta name="description" content="西新宿にあるCafé de PARIS。朝6時から夜22時まで営業。香ばしいコーヒーと日替わりランチで、心地よい時間をお届けします。">
+
+    <title>Café de PARIS</title>
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=Mukta+Malar:wght@200;300;400;500;600;700;800&family=Oooh+Baby&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <!-- ファビコン -->
+    <link rel="icon" href="images/favicon.ico">
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/ress.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <header class="header liquid-glass-card js-header">
+      <div class="header-inner">
+          <div class="logo">
+          <a href="index.html">
+              <img src="images/logo_02.svg" alt="ロゴ">
+          </a>
+          </div>
+          <nav class="nav-menu">
+          <ul>
+            <li class="nav-item"><a href="index.html">TOP</a></li>
+            <li class="nav-item"><a href="#about">About</a></li>
+            <li class="nav-item"><a href="#menu">Menu</a></li>
+            <li class="nav-item"><a href="#scene">Scene</a></li>
+            <li class="nav-item"><a href="#news">News</a></li>
+            <li class="nav-item"><a href="#shopinfo">Shop Info</a></li>
+            <li class="nav-item"><a href="#instagram">Instagram</a></li>
+            <li class="header__sns">
+              <a href="#">
+                <img src="images/instagram-icon_02.svg" alt="Instagram" class="icon">
+              </a>
+            </li>
+            <li class="header__sns">
+              <a href="#">
+                <img src="images/x-icon_02.svg" alt="X">
+              </a>
+            </li>          
+            <li class="header__reservation">
+              <a href="#"><span class="btn-reservation">Reservation</span></a>
+            </li>
+          </ul>
+          </nav>
+          <!-- Liquid Glass Style -->
+          <svg width="0" height="0" style="position: absolute;">
+              <defs>
+                  <filter id="glass-distortion" x="0%" y="0%" width="100%" height="100%">
+                      <feTurbulence type="fractalNoise" baseFrequency="0.008 0.008" numOctaves="2" seed="92" result="noise" />
+                      <feGaussianBlur in="noise" stdDeviation="2" result="blurred" />
+                      <feDisplacementMap in="SourceGraphic" in2="blurred" scale="150" xChannelSelector="R" yChannelSelector="G" />
+                  </filter>
+              </defs>
+          </svg>
+      </div>
+    </header> 
+
+    <div class="main_visual">
+      <h1><img src="images/logo.svg" alt="ロゴ"></h1>
+      <div class="slide">
+        <div class="bgImg srcImage1 parallax"></div>
+        <div class="bgImg srcImage2 parallax"></div>
+        <div class="bgImg srcImage3 parallax"></div>
+        <div class="bgImg srcImage4 parallax"></div>
+        <div class="bgImg srcImage5 parallax"></div>
+        <div class="bgImg srcImage6 parallax"></div>
+      </div>
+    </div>
+    <a href="#" class="scroll-down_06">
+      <div class="circle-arrow"></div>
+      Scroll Down
+    </a>
+
+    <main>
+      <section id="about" class="about wrapper">
+        <h2>About</h2>
+        <!-- Item 01 -->
+        <div class="about__item">
+            <div class="about__wrap">
+            <div class="about__imgWrap about__imgWrap01">
+                <div class="about__imgWrap01-img1 inview fadeIn">
+                <img src="images/about_img01.jpg" alt="トマトパスタ" class="img">
+                </div>
+                <div class="about__imgWrap01-img2 inview fadeIn">
+                <img src="images/about_img02.jpg" alt="コーヒー" class="img">
+                </div>
+            </div>
+
+            <div class="about__textWrap about__textWrap01">
+                <p class="about-subtitle">Everyday<br>Moments Café</p>
+                <p class="about__text">
+                Café de Paris は、西新宿にそっと佇む<br>
+                日常に寄り添う小さなカフェです。
+                </p>
+            </div>
+            </div>
+        </div>
+        <!-- Item 02 -->
+        <div class="about__item">
+            <div class="about__wrap reverse">
+            <div class="about__imgWrap about__imgWrap02">
+                <div class="about__imgWrap02-img1 inview fadeIn">
+                <img src="images/about_img03.jpg" alt="サラダ" class="img">
+                </div>
+                <div class="about__imgWrap02-img2 inview fadeIn">
+                <img src="images/about_img04.jpg" alt="バナナとフレンチトースト" class="img">
+                </div>
+            </div>
+
+            <div class="about__textWrap about__textWrap02">
+                <p class="about__text2">
+                朝<span class="num">6</span>時、店内は香ばしいコーヒーの香りで<br>
+                満たされ、昼には大きな窓から<br>
+                やわらかな光が差し込みます。<br>
+                素材の風味を大切にした一杯と、<br>
+                心地よい空気が、訪れる人の時間に<br>
+                そっと寄り添います。
+                </p>
+            </div>
+            </div>
+        </div>
+        <!-- Item 03 -->
+        <div class="about__item">
+            <div class="about__wrap">
+              <div class="about__imgWrap about__imgWrap03">
+                  <div class="about__imgWrap03-img1 inview fadeIn">
+                  <img src="images/about_img05.jpg" alt="トースト" class="img">
+                  </div>
+                  <div class="about__imgWrap03-img2 inview fadeIn">
+                  <img src="images/about_img06.jpg" alt="店内の様子" class="img">
+                  </div>
+              </div>
+
+              <div class="about__textWrap">
+                  <p class="about__text3">
+                  仕事前にも、休日にも、友人とのひとときにも。<br>
+                  静かな音楽と穏やかな光に包まれ、<br>
+                  「また来たい」と思える<br>落ち着いた時間が流れます。<br>
+                  Café de Paris は、あなたの日常に寄り添う<br>
+                  “もうひとつの居場所” です。
+                  </p>
+              </div>
+            </div>
+        </div>
+      </section>
+      
+      <section class="menu" id="menu">
+        <div class="section__marquee">
+          <span class="marquee__text">Café de PARIS  Café de PARIS</span>
+          <span class="marquee__text">Café de PARIS  Café de PARIS</span>
+        </div>
+        <div class="wrapper">
+          <h2>Menu</h2>
+        </div>
+
+        <div class="splide" role="group" aria-label="メニューカテゴリのスライダー">
+          <div class="splide__track">
+            <div class="splide__list">
+              <!-- Morning -->
+              <div class="splide__slide" data-type="morning">
+                <img src="images/Morning01.jpg" alt="Morning">
+                <div class="slide-overlay" aria-hidden="false">
+                  <div class="slide-title">Morning</div>
+                  <div class="slide-time">6:00~11:00</div>
+                  <button type="button" class="menu_button" aria-label="Morning のメニューを開く">View Menu</button>
+                </div>
+              </div>
+              <!-- Lunch -->
+              <div class="splide__slide" data-type="lunch">
+                <img src="images/Lunch01.jpg" alt="Lunch">
+                <div class="slide-overlay" aria-hidden="false">
+                  <div class="slide-title">Lunch</div>
+                  <div class="slide-time">11:00~17:00</div>
+                  <button type="button" class="menu_button" aria-label="Lunch のメニューを開く">View Menu</button>
+                </div>
+              </div>
+              <!-- Dinner -->
+              <div class="splide__slide" data-type="dinner">
+                <img src="images/Dinner01.jpg" alt="Dinner">
+                <div class="slide-overlay" aria-hidden="false">
+                  <div class="slide-title">Dinner</div>
+                  <div class="slide-time">17:00~22:00</div>
+                  <button type="button" class="menu_button" aria-label="Dinner のメニューを開く">View Menu</button>
+                </div>
+              </div>
+              <!-- Dessert -->
+              <div class="splide__slide" data-type="dessert">
+                <img src="images/Desert01.jpg" alt="Dessert">
+                <div class="slide-overlay" aria-hidden="false">
+                  <div class="slide-title">Dessert</div>
+                  <div class="slide-time">11:00~22:00</div>
+                  <button type="button" class="menu_button" aria-label="Dessert のメニューを開く">View Menu</button>
+                </div>
+              </div>
+              <!-- Drink -->
+              <div class="splide__slide" data-type="drink">
+                <img src="images/Drink01.jpg" alt="Drink">
+                <div class="slide-overlay" aria-hidden="false">
+                  <div class="slide-title">Drink</div>
+                  <div class="slide-time">6:00~22:00</div>
+                  <button type="button" class="menu_button" aria-label="Drink のメニューを開く">View Menu</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- モーダル -->
+        <div id="menuModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-inner">
+              <!-- 左に画像 -->
+              <div class="modal-left">
+                <img id="modalImage" src="" alt="">
+              </div>
+              <!-- 右に文字 -->
+              <div class="modal-right">
+                <h2 id="modalTitle" class="modal-title"></h2>
+                <div id="modalMenu">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="scene" class="scene">
+        <div class="wrapper">
+          <h2>Scene</h2>
+        </div>
+        <!-- Morning Coffee -->
+        <div class=" scene--morning">
+          <div class="scene-row">
+            <!-- 左：画像スタック -->
+            <div class="scene-media">
+              <figure class="img img-top inview fadeIn">
+                <img src="images/scene_img01.jpg" alt="エスプレッソ抽出中">
+              </figure>
+              <figure class="img img-bottom inview fadeIn">
+                <img src="images/scene_img02.jpg" alt="コーヒーカップ">
+              </figure>
+            </div>
+
+            <!-- 右：英字タイトル -->
+            <div class="scene-aside">
+              <div class="scene-title">Morning Coffee</div>
+            </div>
+          </div>
+
+          <!-- 説明文 -->
+          <div class="scene-text">
+            午前<span class="num">6</span>時。当店のドアが開くと同時に、<br>
+            店内は芳醇なコーヒーの香りに包まれます。<br>
+            窓の外の光がやわらかく差し込み、<br>
+            静かな時間を過ごされるお客様の姿を照らします。<br>
+            ここは、忙しい出勤前のひと息にも、<br>
+            休日の贅沢なモーニングにも理想的な空間。<br>
+            一日の始まりを、こだわりの一杯と<br>
+            穏やかなBGMとともに、心ゆくまでお過ごしください。
+          </div>
+        </div>
+        <!-- Lunch Time -->
+        <div class="scene--lunch">
+          <div class="scene-row">
+            <!-- 左：英字タイトル -->
+            <div class="scene-aside">
+              <div class="scene-title">Lunch Time</div>
+            </div>
+
+            <!-- 右：画像スタック -->
+            <div class="scene-media">
+              <figure class="img img-top inview fadeIn">
+                <img src="images/scene_img03.jpg" alt="パスタ料理">
+              </figure>
+              <figure class="img img-bottom inview fadeIn">
+                <img src="images/scene_img04.jpg" alt="店内の様子">
+              </figure>
+            </div>
+          </div>
+
+          <!-- 説明文 -->
+          <div class="scene-text">
+            昼下がり、当店は賑やかなランチタイムを迎えます。<br>
+            特製のパスタやカレーをはじめ、気軽に楽しめる<br>メニューを多数ご用意しております。<br>西新宿駅からのアクセスも抜群で、お買い物の途中や、<br>ご友人とのちょっとした集まりにも最適です。<br>美味しいランチとともに、心も身体も<br>満たされる温かな時間を、<br>どうぞごゆっくりお過ごしください。
+          </div>
+        </div>
+      </section>
+
+      <section class="parallax">
+        <div class="first content">
+          <div class="content_area">
+            <h2>Afternoon Relax</h2>
+            <p>こだわりの一杯とともに、静かな午後を。</p>
+          </div>
+        </div>
+
+        <div class="second content">
+          <div class="content_area">
+            <h2>By the Pane</h2>
+            <p>窓際の席では柔らかな光が差し込み、特別なひとときを過ごせます。</p>
+          </div>
+        </div>
+
+        <div class="third content">
+          <div class="content_area">
+            <h2>Refined Taste</h2>
+            <p>温度、圧力、時間—すべてにこだわった一杯を。</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="news" class="news">
+        <div class=" wrapper">
+          <h2>NEWS</h2>   
+          <!-- ニュース記事 -->
+          <ul class="news_list">
+              <li class="news_list_item">
+                <a href="">
+                  <div class="news_list_date">
+                    <time>2025.11.23</time>
+                    <p class="news_item">キャンペーン</p>
+                  </div>
+                  <p>新規サイトオープン企画 Webサイトを見て特製モンブランをもらおう!</p>
+                  <span class="arrow"></span>
+                </a>
+              </li>
+              <li class="news_list_item">
+                <a href="">
+                  <div class="news_list_date">
+                    <time>2025.11.20</time>
+                    <p class="news_item">新メニュー</p>
+                  </div>
+                  <p>【秋限定】新作マカロン「キャラメルポワール」が登場！</p>
+                  <span class="arrow"></span>
+                </a>
+              </li>
+              <li class="news_list_item">
+                <a href="">
+                  <div class="news_list_date">
+                    <time>2025.11.15</time>
+                    <p class="news_item">お知らせ</p>
+                  </div>
+                  <p>お待たせ致しました!カフェ・ド・パリWebサイトをオープン致しました。</p>
+                  <span class="arrow"></span>
+                </a>
+              </li>
+          </ul>
+          <!-- View More ボタン -->
+          <div class="news_viewmore">
+            <a href="#" class="viewmore_btn">View More</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="shopinfo" class="shopinfo">
+        <div class="wrapper">
+          <h2>Shop Info</h2>
+          <!-- 地図 -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.40764837976!2d139.69438577559237!3d35.691584872583945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d9090c03e2f%3A0x3de1c61ba2a4ac68!2zSEFM5p2x5Lqs!5e0!3m2!1sja!2sjp!4v1763916398650!5m2!1sja!2sjp" width="960" height="480" style="border:0;filter:grayscale(100%);-webkit-filter:grayscale(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+          <!-- 店内写真 -->
+          <div class="shopinfo__photos">
+            <div class="photo-top">
+              <img src="images/shopinfo_img01.png" alt="店内写真1" class="photo-top-img inview fadeIn">
+            </div>
+            <div class="photo-bottom">
+              <img src="images/shopinfo_img02.png" alt="店内写真2" class="photo-bottom-img inview fadeIn">
+            </div>
+          </div>
+
+          <!-- 店舗情報 -->
+          <div class="shopinfo__details">
+            <p class="shop__name">Café de PARIS</p>
+            <p>〒<span class="num">160-0023</span> 東京都新宿区西新宿<span class="num">1</span>丁目<span class="num">7−3</span></p>
+            <p>電話番号：<span class="num">055-987-2410</span></p>
+            <p>定休日：火曜日</p>
+            <p class="note"> ※架空サイトのため実際の店舗は存在しません。</p>
+
+            <!-- 営業時間 -->
+            <ul class="shopinfo__hours">
+              <li>
+                <span class="label">Morning</span>
+                <span class="time">6:00~11:00</span>
+              </li>
+              <li>
+                <span class="label">Lunch</span>
+                <span class="time">11:00~17:00</span>
+              </li>
+              <li>
+                <span class="label">Dinner</span>
+                <span class="time">17:00~22:00</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="instagram" class="instagram">
+        <div class=" wrapper">
+          <h2>Instagram</h2>
+          <div class="instagram_photo">
+            <div class="photo-wrapper">
+              <img src="images/Instagram01.jpg" alt="Instagram画像1">
+            </div>
+            <div class="photo-wrapper">
+              <img src="images/Instagram02.jpg" alt="Instagram画像2">
+            </div>
+            <div class="photo-wrapper">
+              <img src="images/Instagram03.jpg" alt="Instagram画像3">
+            </div>
+            <div class="photo-wrapper">
+              <img src="images/Instagram04.jpg" alt="Instagram画像4">
+            </div>
+            <div class="photo-wrapper">
+              <img src="images/Instagram05.jpg" alt="Instagram画像5">
+            </div>
+            <div class="photo-wrapper">
+              <img src="images/Instagram06.jpg" alt="Instagram画像6">
+            </div>
+            <div class="photo-wrapper">
+              <img src="images/Instagram07.jpg" alt="Instagram画像7">
+            </div>
+            <div class="photo-wrapper">
+              <img src="images/Instagram08.jpg" alt="Instagram画像8">
+            </div>
+            <div class="photo-wrapper">
+              <img src="images/Instagram09.jpg" alt="Instagram画像9">
+            </div>
+            <div class="photo-wrapper">
+              <img src="images/Instagram10.jpg" alt="Instagram画像10">
+            </div>
+            <div class="photo-wrapper">
+              <img src="images/Instagram11.jpg" alt="Instagram画像11">
+            </div>
+            <div class="photo-wrapper">
+              <img src="images/Instagram12.jpg" alt="Instagram画像12">
+            </div>
+          </div>
+          <a href="#" class="instagram-btn">
+            <img src="images/instagram-icon.svg" alt="Instagramアイコン">
+            <span>@Café de PARIS</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <div class="brand-title">
+        <p>Café de PARIS</p>
+    </div>
+
+    <footer class="footer">
+      <div class="wrapper_f">
+        <!-- 左側：店舗情報 -->
+        <div class="footer__left">
+          <div class="shopinfo__details">
+            <img src="images/logo.svg" alt="カフェロゴ" class="shopinfo__logo">
+            <p>〒<span class="num">160-0023</span> 東京都新宿区西新宿<span class="num">1</span>丁目<span class="num">7−3</span></p>
+            <p>電話番号：<span class="num">055-987-2410</span></p>
+            <p>定休日：火曜日</p>
+            <p class="note">※架空サイトのため実際の店舗は存在しません。</p>
+
+            <ul class="shopinfo__hours">
+              <li><span class="label">Morning</span><span class="time">6:00~11:00</span></li>
+              <li><span class="label">Lunch</span><span class="time">11:00~17:00</span></li>
+              <li><span class="label">Dinner</span><span class="time">17:00~22:00</span></li>
+            </ul>
+          </div>
+        </div>
+        <!-- 右側：ボタン・SNS・コピーライト -->
+        <div class="footer__right">
+          <p class="footer__lead">ご予約・お問い合わせはこちら</p>
+          <div class="shopinfo__buttons">
+            <a href="#" class="footer__btn">Contact</a>
+            <a href="#" class="footer__btn">Reservation</a>
+          </div>
+
+          <div class="shopinfo__sns">
+            <a href="#"><img src="images/instagram-icon.svg" alt="Instagram"></a>
+            <a href="#"><img src="images/x-icon.svg" alt="X"></a>
+          </div>
+
+          <p class="shopinfo__copyright">©Café de PARIS</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+    <!--  スクロールしたらふわっと表示inview.js-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inview/1.0.0/jquery.inview.min.js"></script>
+    <!-- main.js -->
+    <script src="js/main.js"></script>
+    <!-- sliderJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  </body>
+
+</html>
+
+
